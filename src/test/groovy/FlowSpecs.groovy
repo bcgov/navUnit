@@ -16,7 +16,9 @@ class FlowSpecs extends GebReportingSpec {
         to startPage
 
         and:
-        $("a", id:"$clickLink").click()
+        (1..clickCount).each{
+            $("a", id:"$clickLink").click()
+        }
 
         then:
         at assertPage
