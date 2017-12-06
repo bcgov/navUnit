@@ -1,3 +1,6 @@
+*NOTE*: This repo and the navunit framework is being *DEPRECATED* in favour of "BDDStack" (https://github.com/bcdevops/BDDStack) which should be a drop-in replacement for navUnit that uses current version of libraries as well as supporting more testing targets.
+
+
 # navUnit - Functional Testing Framework
 
 ### Introduction
